@@ -1,5 +1,7 @@
 # importing libraries
 import os
+import pydub
+
 
 wrkDir = str(input("Enter the path of your playlist folder: "))
 
@@ -14,3 +16,6 @@ for entity in os.listdir(wrkDir):
 for thing in playlist:
     print(thing)
 
+for thing in playlist:
+    file = AudioSegment.from_mp3(thing)
+    file.export(thing, format="wav")
