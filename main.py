@@ -7,10 +7,13 @@ wrkDir = str(input("Enter the path of your playlist folder: "))
 
 playlist = []
 
-for entity in os.listdir(wrkDir):
-    full_entity = os.path.join(wrkDir, entity)
-    if os.path.isfile(full_entity):
-        playlist.append(full_entity)
+try:
+    for entity in os.listdir(wrkDir):
+        full_entity = os.path.join(wrkDir, entity)
+        if os.path.isfile(full_entity):
+            playlist.append(full_entity)
+except (FileNotFoundError, IOError):
+    print("Wrong file or file path")
 
 
 for thing in playlist:
