@@ -1,4 +1,9 @@
-# songTool
+# AudioGuru
+
+**Note, AudioGuru is still in development
+
+## What exactly is AudioGuru:
+Songtool is a python based application that learns about a user's music taste, and helps predict which of the user's playlist a newly discovered song should be added to
 
 
 
