@@ -7,21 +7,26 @@ AudioGuru is a python based application that learns about a user's music taste, 
 
 ## How does AudioGuru work?
 AudioGuru's functionality is comprised of 5 key processes
+- 1: Ingestion
+- 2: Curation 
+- 3: Analytics
+- 4: Knowledge System
+- 5: Decision Support
 
-> ### (1) Ingestion:
+> ### Ingestion:
 >
 > - The Ingestion step of AG begins with the initialization of 
 
-> ### (2) Curation:
+> ###  Curation:
 
 
-> ### (3) Analytics:
+> ###  Analytics:
 
 
-> ### (4) Knowledge System:
+> ###  Knowledge System:
 
 
-> ### (5) Decision Support:
+> ###  Decision Support:
 
 
 
