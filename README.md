@@ -3,7 +3,7 @@ developed by Akhil Kammela
 
 
 ## What exactly is AudioGuru?
-AudioGuru is a Python based application that learns about a user's music taste, and helps predict which of the user's playlist a newly discovered song should be added to.
+AudioGuru is a Python based application that learns about a user's music taste, and helps predict which of the user's playlists a newly discovered song should be added to.
 
 From a technical view, AudioGuru forms spectrograms with WAV files provided by a user, and utilizes said spectrograms to train a set of classifiers to detect where new songs should be placed amongst a user's library of playlists.
 
