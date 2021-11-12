@@ -75,7 +75,3 @@ From a technical view, AudioGuru forms spectrograms with WAV files provided by a
 
 
 
-
-
-
-*Note, AudioGuru is still in development*
