@@ -38,7 +38,7 @@ From a technical view, AudioGuru forms spectrograms with WAV files provided by a
 
 &nbsp;
 
-###AudioGuru's functionality is comprised of 5 key processes
+### AudioGuru's functionality is comprised of 5 key processes
 > - 1: Ingestion
 > - 2: Curation 
 > - 3: Analytics
