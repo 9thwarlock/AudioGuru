@@ -38,33 +38,40 @@ From a technical view, AudioGuru forms spectrograms with WAV files provided by a
 
 &nbsp;
 
-AudioGuru's functionality is comprised of 5 key processes
-- 1: Ingestion
-- 2: Curation 
-- 3: Analytics
-- 4: Knowledge System
-- 5: Decision Support
+###AudioGuru's functionality is comprised of 5 key processes
+> - 1: Ingestion
+> - 2: Curation 
+> - 3: Analytics
+> - 4: Knowledge System
+> - 5: Decision Support
 
 
 
 ## Key Processes
 ### Ingestion:
->
-> - The Ingestion step of AG begins with the initialization of 
+> - The Ingestion step of AG begins with the initialization of application files/folders where data is to be stored and managed.
+> - AG prompts the user to input a playlist by providing a path to the folder where the playlist songs are stored.
+> - AG prepares the songs by converting any .mp3 files to .WAV.
 
  ###  Curation:
- >
+ > - AG iterates through the playlist, forming spectrograms from the previously stored .WAV files.
+ > - Data from the spectrograms are derived as numpy arrays, then stored in a CSV file. 
+ > - AG performs preprocessing by applying variance scaling on the data stores in the CSV file.
 
- ###  Analytics:
- >
+ ###  Analytics: *in progress*
+ > - The SVM Classifiers are trained with preprocessed data.
+ > - Models formed from the classifiers are stored for use in the knowledge system.
 
 
- ###  Knowledge System:
- >
+ ###  Knowledge System: *in progress*
+ > - The efficacy of the created models are tested, efficacy is displayed to the user
 
 
- ###  Decision Support:
- >
+
+ ###  Decision Support: *in progress*
+ > - AG prompts the user to input songs
+ > - Stored models are used to determine the classification of the newly provided songs
+ > - AG displays its recommendation to the user.
 
 
 
