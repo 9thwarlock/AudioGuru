@@ -45,7 +45,7 @@ From a technical view, AudioGuru forms spectrograms with WAV files provided by a
 > - 4: Knowledge System
 > - 5: Decision Support
 
-
+&nbsp;
 
 ## Key Processes
 ### Ingestion:
